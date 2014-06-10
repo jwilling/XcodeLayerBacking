@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E6A955719466B960006AE92 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6A955619466B960006AE92 /* AppKit.framework */; };
+		0E6A955919466B960006AE92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6A955819466B960006AE92 /* Foundation.framework */; };
+		0E6A955F19466B960006AE92 /* JNWXcodeLayerBacking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A955E19466B960006AE92 /* JNWXcodeLayerBacking.m */; };
+		0E6A956119466B960006AE92 /* XcodeLayerBacking-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 0E6A956019466B960006AE92 /* XcodeLayerBacking-Prefix.pch */; };
+		0E6A956319466B960006AE92 /* XcodeLayerBacking-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E6A956219466B960006AE92 /* XcodeLayerBacking-Info.plist */; };
+		0E6A956D19466CC40006AE92 /* IDEWorkspaceWindow+JNWLayerBacking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A956C19466CC40006AE92 /* IDEWorkspaceWindow+JNWLayerBacking.m */; };
+		0EB062F9194676D200DA5F68 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB062F8194676D200DA5F68 /* IDEKit.framework */; };
+		0EB062FB1946771B00DA5F68 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E6A9578194671540006AE92 /* DVTKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E6A955319466B960006AE92 /* XcodeLayerBacking.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeLayerBacking.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6A955619466B960006AE92 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		0E6A955819466B960006AE92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0E6A955C19466B960006AE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E6A955D19466B960006AE92 /* JNWXcodeLayerBacking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JNWXcodeLayerBacking.h; sourceTree = "<group>"; };
+		0E6A955E19466B960006AE92 /* JNWXcodeLayerBacking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNWXcodeLayerBacking.m; sourceTree = "<group>"; };
+		0E6A956019466B960006AE92 /* XcodeLayerBacking-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XcodeLayerBacking-Prefix.pch"; sourceTree = "<group>"; };
+		0E6A956219466B960006AE92 /* XcodeLayerBacking-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XcodeLayerBacking-Info.plist"; sourceTree = "<group>"; };
+		0E6A956B19466CC40006AE92 /* IDEWorkspaceWindow+JNWLayerBacking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDEWorkspaceWindow+JNWLayerBacking.h"; sourceTree = "<group>"; };
+		0E6A956C19466CC40006AE92 /* IDEWorkspaceWindow+JNWLayerBacking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDEWorkspaceWindow+JNWLayerBacking.m"; sourceTree = "<group>"; };
+		0E6A9578194671540006AE92 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTKit.framework; sourceTree = "<group>"; };
+		0EB062F8194676D200DA5F68 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IDEKit.framework; path = ../../../../Applications/Xcode.app/Contents/Frameworks/IDEKit.framework; sourceTree = "<group>"; };
+		0EB062FC1946774400DA5F68 /* DVTDualProxyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DVTDualProxyWindow.h; path = "Class Dump Headers/DVTDualProxyWindow.h"; sourceTree = "<group>"; };
+		0EB062FD1946774400DA5F68 /* IDEWorkspaceWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IDEWorkspaceWindow.h; path = "Class Dump Headers/IDEWorkspaceWindow.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6A955019466B960006AE92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB062FB1946771B00DA5F68 /* DVTKit.framework in Frameworks */,
+				0EB062F9194676D200DA5F68 /* IDEKit.framework in Frameworks */,
+				0E6A955719466B960006AE92 /* AppKit.framework in Frameworks */,
+				0E6A955919466B960006AE92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6A954A19466B960006AE92 = {
+			isa = PBXGroup;
+			children = (
+				0E6A955A19466B960006AE92 /* XcodeLayerBacking */,
+				0E6A955519466B960006AE92 /* Frameworks */,
+				0E6A955419466B960006AE92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E6A955419466B960006AE92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E6A955319466B960006AE92 /* XcodeLayerBacking.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E6A955519466B960006AE92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EB062F8194676D200DA5F68 /* IDEKit.framework */,
+				0E6A9578194671540006AE92 /* DVTKit.framework */,
+				0E6A955619466B960006AE92 /* AppKit.framework */,
+				0E6A955819466B960006AE92 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E6A955A19466B960006AE92 /* XcodeLayerBacking */ = {
+			isa = PBXGroup;
+			children = (
+				0EB062FA194676DF00DA5F68 /* Xcode Headers */,
+				0E6A956B19466CC40006AE92 /* IDEWorkspaceWindow+JNWLayerBacking.h */,
+				0E6A956C19466CC40006AE92 /* IDEWorkspaceWindow+JNWLayerBacking.m */,
+				0E6A955D19466B960006AE92 /* JNWXcodeLayerBacking.h */,
+				0E6A955E19466B960006AE92 /* JNWXcodeLayerBacking.m */,
+				0E6A956019466B960006AE92 /* XcodeLayerBacking-Prefix.pch */,
+				0E6A956219466B960006AE92 /* XcodeLayerBacking-Info.plist */,
+				0E6A955B19466B960006AE92 /* Supporting Files */,
+			);
+			path = XcodeLayerBacking;
+			sourceTree = "<group>";
+		};
+		0E6A955B19466B960006AE92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E6A955C19466B960006AE92 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0EB062FA194676DF00DA5F68 /* Xcode Headers */ = {
+			isa = PBXGroup;
+			children = (
+				0EB062FC1946774400DA5F68 /* DVTDualProxyWindow.h */,
+				0EB062FD1946774400DA5F68 /* IDEWorkspaceWindow.h */,
+			);
+			name = "Xcode Headers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E6A955219466B960006AE92 /* XcodeLayerBacking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E6A956619466B960006AE92 /* Build configuration list for PBXNativeTarget "XcodeLayerBacking" */;
+			buildPhases = (
+				0E6A954F19466B960006AE92 /* Sources */,
+				0E6A955019466B960006AE92 /* Frameworks */,
+				0E6A955119466B960006AE92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XcodeLayerBacking;
+			productName = XcodeLayerBacking;
+			productReference = 0E6A955319466B960006AE92 /* XcodeLayerBacking.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E6A954B19466B960006AE92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = appjon;
+				TargetAttributes = {
+					0E6A955219466B960006AE92 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 0E6A954E19466B960006AE92 /* Build configuration list for PBXProject "XcodeLayerBacking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0E6A954A19466B960006AE92;
+			productRefGroup = 0E6A955419466B960006AE92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E6A955219466B960006AE92 /* XcodeLayerBacking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E6A955119466B960006AE92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6A956319466B960006AE92 /* XcodeLayerBacking-Info.plist in Resources */,
+				0E6A956119466B960006AE92 /* XcodeLayerBacking-Prefix.pch in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E6A954F19466B960006AE92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E6A955F19466B960006AE92 /* JNWXcodeLayerBacking.m in Sources */,
+				0E6A956D19466CC40006AE92 /* IDEWorkspaceWindow+JNWLayerBacking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E6A956419466B960006AE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		0E6A956519466B960006AE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				METAL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		0E6A956719466B960006AE92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+				);
+				INFOPLIST_FILE = XcodeLayerBacking/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		0E6A956819466B960006AE92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/SharedFrameworks",
+					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Frameworks",
+				);
+				INFOPLIST_FILE = XcodeLayerBacking/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E6A954E19466B960006AE92 /* Build configuration list for PBXProject "XcodeLayerBacking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6A956419466B960006AE92 /* Debug */,
+				0E6A956519466B960006AE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E6A956619466B960006AE92 /* Build configuration list for PBXNativeTarget "XcodeLayerBacking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E6A956719466B960006AE92 /* Debug */,
+				0E6A956819466B960006AE92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E6A954B19466B960006AE92 /* Project object */;
+}
